@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saylani Admission Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">Saylani Admission Portal</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="home-section">
+        <div class="home-content">
+            <h1>Welcome to Saylani Admission Portal</h1>
+            <p>Your journey towards a successful career starts here.</p>
+            <a href="#admission-form" class="btn">Apply Now</a>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>Saylani Welfare International Trust has been serving humanity for over a decade. We provide professional courses to empower individuals with knowledge and skills.</p>
+    </section>
+
+    <section id="courses" class="courses-section">
+        <h2>Our Courses</h2>
+        <div class="courses">
+            <div class="course-card">
+                <h3>Web Development</h3>
+                <p>Learn the latest technologies in web development to build dynamic websites.</p>
+            </div>
+            <div class="course-card">
+                <h3>Mobile App Development</h3>
+                <p>Get hands-on experience to develop interactive mobile applications.</p>
+            </div>
+            <div class="course-card">
+                <h3>Graphic Designing</h3>
+                <p>Master graphic design tools and create visually appealing designs.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="admission-form" class="form-section">
+        <h2>Admission Form</h2>
+        <form>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="course">Select Course:</label>
+            <select id="course" name="course" required>
+                <option value="web-development">Web Development</option>
+                <option value="mobile-development">Mobile App Development</option>
+                <option value="graphic-designing">Graphic Designing</option>
+            </select>
+
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Saylani Welfare International Trust | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
